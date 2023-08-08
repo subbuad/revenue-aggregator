@@ -1,0 +1,42 @@
+.app-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .table-container {
+    height: 70vh;
+    overflow:auto;
+  }
+  
+  .product-table {
+    width: 600px;
+    height: 100px;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .product-table th,
+  .product-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .product-table th {
+    font-weight: bold;
+  }
+  
+  .product-table tfoot td {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  
